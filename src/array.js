@@ -15,6 +15,7 @@ console.log(sumarr);
 // Display the average using console.log.
 const AverageArray = [52, 54, 25, 54, 55, 5, 5, 5, 54, 5, 5, 52];
 let maxNum = Math.max(...AverageArray);
+console.log("maxNum", maxNum)
 console.log(maxNum / 2);
 
 // Exercise 3: Largest Number in Array
@@ -38,12 +39,13 @@ console.log(uniqueChars);
 const FindIndexArray = ["fahad", "himel", "Firus", "Ahasan"];
 
 const findFunction = (find) => {
-  for (let i in FindIndexArray) {
-    if (find === FindIndexArray[i]) {
-      return i;
-    }
-  }
-  return -1;
+    FindIndexArray.findIndex(find)
+//   for (let i in FindIndexArray) {
+//     if (find === FindIndexArray[i]) {
+//       return i;
+//     }
+//   }
+//   return -1;
 };
 console.log(findFunction("Firus"));
 

@@ -40,5 +40,6 @@ console.log(Boolean(1));
 // Display the original array and the converted string using console.log.
 
 const arrStr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(arrStr.toString());
-//console.log(arrStr.join())
+// console.log(arrStr.toString());
+console.log(arrStr.join())
+
