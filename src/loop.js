@@ -54,13 +54,13 @@ for (let i = 1; i <= 20; i++) {
 // Use nested for loops to create a pattern of asterisks. Start with a single asterisk and increase the number of asterisks in each row.
 // Display the pattern using console.log.
 
-let star="";
+let star = "";
 for (let i = 1; i <= 10; i++) {
   for (let j = 0; j < i; j++) {
-    star+="*";
+    star += "*";
   }
-  console.log(star)
-  star="";
+  console.log(star);
+  star = "";
 }
 
 // Exercise 7: Infinite Loop Prevention
@@ -69,11 +69,11 @@ for (let i = 1; i <= 10; i++) {
 
 let Condition = true;
 
-// while(Condition){
-//     let UserValue=prompt("Enter the value: ").toLocaleLowerCase();
+while (Condition) {
+  let UserValue = prompt("Enter the value: ").toLocaleLowerCase();
 
-//     if(UserValue=="exit"||UserValue=="quit"){
-//         Condition=false;
-//     }
-//     console.log(UserValue)
-// }
+  if (UserValue == "exit" || UserValue == "quit") {
+    Condition = false;
+  }
+  console.log(UserValue);
+}

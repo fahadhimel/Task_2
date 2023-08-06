@@ -33,9 +33,49 @@ switch (gradeVariable < 100) {
 // Include cases for different language codes and a default case for unknown codes.
 // Display the greeting using console.log.
 
-const en="English";
+const English = "en";
+const Spanish = "es";
+
+switch (English) {
+  case "es":
+    console.log("welcome to Spanish Language");
+    break;
+  case "en":
+    console.log("welcome to English Language");
+    break;
+
+  default:
+    console.log("unknown codes");
+}
 
 // Exercise 3: Day Type
 // Declare a variable to represent a day of the week (e.g., 5 for Friday).
 // Use a switch statement to determine whether the day is a weekday or a weekend day.
 // Display a message indicating whether it's a weekday or a weekend day using console.log.
+
+const FridayVariable = 5;
+
+let day;
+switch (FridayVariable) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+}
+console.log(day);

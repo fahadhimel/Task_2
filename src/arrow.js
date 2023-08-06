@@ -39,13 +39,13 @@ console.log(convertToUppercase("fahad"));
 // Call the arrow function with different pairs of numbers and display the results using console.log.
 
 const sumOfSquares = (num1, num2) => {
-   const squares1=num1*num1;
-   const squares2=num2*num2;
+  const squares1 = num1 * num1;
+  const squares2 = num2 * num2;
 
-  return squares1+squares2;
+  return squares1 + squares2;
 };
-console.log(sumOfSquares(5,5))
-console.log(sumOfSquares(5,3))
+console.log(sumOfSquares(5, 5));
+console.log(sumOfSquares(5, 3));
 
 // Exercise 5: Filter Even Numbers
 // Write an arrow function named filterEven that takes an array of numbers parameter.
@@ -53,8 +53,8 @@ console.log(sumOfSquares(5,3))
 // Call the arrow function with different arrays of numbers and display the filtered arrays using console.log.
 
 const filterEven = (arr) => {
-    const filterEvenNumber=arr.filter(num=>num%2==0);
-    return filterEvenNumber;
- };
+  const filterEvenNumber = arr.filter((num) => num % 2 == 0);
+  return filterEvenNumber;
+};
 
- console.log(filterEven([5,86,86,65,25,585,58,55,5,5,69,5,5]))
+console.log(filterEven([5, 86, 86, 65, 25, 585, 58, 55, 5, 5, 69, 5, 5]));
